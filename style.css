@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+  min-height:100vh ;
+  width:100% ;
+  display: flex;
+
+}
+.container .navbar, .navbar .navlist{
+  display: flex;
+
+  align-items: center;
+}
+.container .navbar{
+  height: 13vh;
+  width: 85%;
+  justify-content: space-between;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+
+}
+.navbar .logo{
+  font-size: 1rem;
+  color: #3f2b27;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navlist li{
+  list-style: none;
+}
+.navlist li a{
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+
+}
+.navlist button{
+  border: none;
+  font-size: 1rem;
+  background: #3f2b27;
+  color: white;
+  padding: .5rem 1.5rem;
+  text-transform: uppercase;
+}
+.container .left-side{
+  background:white ;
+}
+.container .right-side{
+  backgrounnd: yellow;
+}
+.container .left-side, .right-side{
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlist .active{
+  color: whitte;
+}
+.left-side .content{
+  margin: 0 4rem 0 8rem;
+}
+.content h1{
+  color: #3f2b27;
+  font-size: 4rem;
+}
+.content p{
+  font-size: 1rem;
+  color: rgb(red, green, blue);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.content button{
+  order: none;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+  text-transform: uppercase;
+}
+  
+.content button:hover{
+  background-color: #03e9f4
+}
+.container .burger img{
+  width: 42rem;
+  bottom: 0px;
+  right: 100px;
+}
+
