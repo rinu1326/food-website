@@ -95,8 +95,7 @@
 }
 .container .burger img{
   width: 42rem;
-  bottom: 0px;
-  right: 100px;
+  filter: drop-shadow(10px 8px 6px #ff0055);
 }
 
 
