@@ -20,14 +20,15 @@
   align-items: center;
 }
 .container .navbar{
-  height: 13vh;
-  width: 85%;
+   height: 13vh;
+  width: 85%; 
   justify-content: space-between;
-  margin: auto;
+   margin: auto;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  
 
 
 }
@@ -58,7 +59,7 @@
   background:white ;
 }
 .container .right-side{
-  backgrounnd: yellow;
+  backgroyund: yellow;
 }
 .container .left-side, .right-side{
   height: 100vh;
@@ -88,6 +89,7 @@
   font-size: 1rem;
   padding: .5rem 1.5rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
   
 .content button:hover{
@@ -98,4 +100,7 @@
   filter: drop-shadow(10px 8px 6px #ff0055);
 }
 
+@media screen {
 
+  
+}
